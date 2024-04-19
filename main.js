@@ -5,7 +5,7 @@ import PDFDownloader from "./handlers/PDFDownloader.js";
 import Logger from "./logger/Logger.js";
 
 // Brug af klasserne
-const excelHandler = new ExcelHandler("metadata.xlsx");
+const excelHandler = new ExcelHandler("Metadata2006_2016.xlsx");
 const pdfDownloader = new PDFDownloader("downloaded_PDFs");
 const reportDownloader = new ReportDownloader(excelHandler, pdfDownloader);
 reportDownloader
